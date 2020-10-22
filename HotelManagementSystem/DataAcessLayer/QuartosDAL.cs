@@ -8,5 +8,9 @@ namespace DataAcessLayer
 {
    public class QuartosDAL
     {
+
+
+
+
     }
 }
