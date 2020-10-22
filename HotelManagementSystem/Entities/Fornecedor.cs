@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entities
-{
+﻿namespace Entities {
     public class Fornecedor
     {
         public int ID { get; set; }
@@ -15,6 +8,5 @@ namespace Entities
         public string Telefone { get; set; }
         public string Email { get; set; }
         public bool Ativo { get; set; }
-
     }
 }
