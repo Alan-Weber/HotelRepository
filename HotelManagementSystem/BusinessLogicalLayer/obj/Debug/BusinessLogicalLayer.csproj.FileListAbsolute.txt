@@ -1,0 +1,5 @@
+C:\Users\entra21\source\repos\HotelManagementSystem\BusinessLogicalLayer\bin\Debug\BusinessLogicalLayer.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\BusinessLogicalLayer\bin\Debug\BusinessLogicalLayer.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.csprojAssemblyReference.cache
+C:\Users\entra21\source\repos\HotelManagementSystem\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.pdb

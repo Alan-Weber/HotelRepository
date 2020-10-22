@@ -1,0 +1,8 @@
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe.config
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.exe
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\bin\Debug\HotelManagementSystem.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\PresentationLayer.csprojAssemblyReference.cache
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.Properties.Resources.resources
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.exe
+C:\Users\entra21\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.pdb

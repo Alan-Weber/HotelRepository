@@ -1,0 +1,4 @@
+C:\Users\entra21\source\repos\HotelManagementSystem\Entities\bin\Debug\Entities.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\Entities\bin\Debug\Entities.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\Entities\obj\Debug\Entities.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\Entities\obj\Debug\Entities.pdb

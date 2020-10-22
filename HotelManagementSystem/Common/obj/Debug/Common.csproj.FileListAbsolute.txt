@@ -1,0 +1,5 @@
+C:\Users\entra21\source\repos\HotelManagementSystem\Common\bin\Debug\Common.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\Common\bin\Debug\Common.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\entra21\source\repos\HotelManagementSystem\Common\obj\Debug\Common.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\Common\obj\Debug\Common.pdb

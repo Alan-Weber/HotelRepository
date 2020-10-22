@@ -1,0 +1,10 @@
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\bin\Debug\DataAcessLayer.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\bin\Debug\DataAcessLayer.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\bin\Debug\Common.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\bin\Debug\Entities.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\bin\Debug\Common.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\bin\Debug\Entities.pdb
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\obj\Debug\DataAcessLayer.csprojAssemblyReference.cache
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\obj\Debug\DataAcessLayer.csproj.CopyComplete
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\obj\Debug\DataAcessLayer.dll
+C:\Users\entra21\source\repos\HotelManagementSystem\DataAcessLayer\obj\Debug\DataAcessLayer.pdb
