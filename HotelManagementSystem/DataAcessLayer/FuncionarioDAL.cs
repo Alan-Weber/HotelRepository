@@ -11,6 +11,39 @@ namespace DataAcessLayer
 {
     public class FuncionarioDAL
     {
+        public Funcionario VerificarLogin(Funcionario funcionario)
+        {
+            SqlConnection connection = new SqlConnection(ConnectionHelper.GetConnectionString());
+            SqlCommand command = new SqlCommand();
+            command.Connection = connection;
+            command.CommandText = @"SELECT * FROM FUNCIONARIOS WHERE EMAIL = @EMAIL AND SENHA = @SENHA";
+            command.Parameters.AddWithValue("@EMAIL", funcionario.Email);
+            command.Parameters.AddWithValue("@SENHA", funcionario.Senha);
+            try
+            {
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                Funcionario fun = new Funcionario();
+                if (reader.Read())
+                {
+                    fun.ID = Convert.ToInt32(reader["ID"]);
+                    fun.Email = (string)reader["EMAIL"];
+                    fun.Senha = (string)reader["SENHA"];
+                    fun.Nome = (string)reader["NOME"];
+                    fun.IsAdm = (bool)reader["ISADM"];
+                    return fun;
+                }
+                return null;
+            }
+            catch (Exception)
+            {
+                throw new Exception("Erro no DB, contate o administrador.");
+            }
+            finally
+            {
+                connection.Dispose();
+            }
+        }
         public Response Insert(Funcionario funcionario)
         {
             Response response = new Response();

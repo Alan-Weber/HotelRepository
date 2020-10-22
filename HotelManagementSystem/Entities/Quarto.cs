@@ -14,7 +14,8 @@ namespace Entities
         public bool IsOcupado { get; set; }
         public double Preco { get; set; }
         public int ClienteId { get; set; }
-        
+        public bool EstaOcupado { get; set; }
+
 
     }
 }
