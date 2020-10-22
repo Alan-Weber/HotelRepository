@@ -5,4 +5,10 @@ namespace Common {
     {
         public List<T> Data { get; set; }
     }
+    public class SingleResponse<T> : Response
+    {
+        public T Data { get; set; }
+    }
+
+
 }

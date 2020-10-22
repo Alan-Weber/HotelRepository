@@ -282,6 +282,59 @@ namespace DataAcessLayer {
 
             }
 
+        public SingleResponse<Cliente> GetById(int id)
+        {
+            SingleResponse<Cliente> response = new SingleResponse<Cliente>();
+
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = ConnectionHelper.GetConnectionString();
+
+            SqlCommand command = new SqlCommand();
+            command.CommandText = "SELECT * FROM CLIENTES WHERE ID = @ID";
+            command.Parameters.AddWithValue("@ID", id);
+            command.Connection = connection;
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+
+                if (reader.Read())
+                {
+                    Cliente cliente = new Cliente();
+                    cliente.ID = (int)reader["ID"];
+                    cliente.Nome = (string)reader["NOME"];
+                    cliente.CPF = (string)reader["CPF"];
+                    cliente.RG = (string)reader["RG"];
+                    cliente.Telefone = (string)reader["TELEFONE"];
+                    cliente.Celular = (string)reader["CELULAR"];
+                    cliente.Email = (string)reader["EMAIL"];
+                    cliente.DataCriacao = (DateTime)reader["DATACRIACAO"];
+                    response.Message = "Dados selecionados com sucesso.";
+                    response.Success = true;
+                    response.Data = cliente;
+                    return response;
+                }
+                response.Message = "Cliente não encontrado.";
+                response.Success = false;
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = "Erro no banco de dados contate o adm.";
+                response.ExceptionError = ex.Message;
+                response.StackTrace = ex.StackTrace;
+                return response;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
+
+    }
     }
 
